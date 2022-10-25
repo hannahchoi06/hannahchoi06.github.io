@@ -12,7 +12,7 @@ body{
   color: #00008B;
 }
 #header{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url('/images/background.png');
   background-size: cover;
@@ -45,7 +45,7 @@ nav ul li a{
 }
 nav ul li a::after{
   content: '';
-  width: 0%;
+  width: 0;
   height: 0.313rem;
   background: #00008B;
   position: absolute;
@@ -54,7 +54,7 @@ nav ul li a::after{
   transition: 0.5s;
 }
 nav ul li a:hover::after{
-  width: 100%;
+  width: 100vw;
 }
 
 .header-text h1{
@@ -132,7 +132,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links.active-link::after{
-  width: 100%;
+  width: 100vw;
 }
 
 .tab-contents ul li{
@@ -167,7 +167,7 @@ nav ul li a:hover::after{
 }
 
 form input, form textarea{
-  width: 50%;
+  width: 50vw;
   border: 0;
   outline: none;
   background: #fff;
@@ -189,15 +189,15 @@ form input, form textarea{
   font-size: 1.563rem;
   text-align: center;
   cursor: pointer;
-  width: 50%;
-  height: 50%;
+  width: 50vw;
+  height: 50vh;
 }
 
 
 
 
 .copyright{
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding: 1.563rem 0rem;
   background: #fff;
